@@ -50,3 +50,14 @@ VALUES
 
 SELECT * 
 FROM vendas
+
+/*
+Resultado:
+
+id_venda	preco_produto	qtde	desconto	preco_total
+   1	            50.00	  2	     20.00	       80.00
+   2	            65.35	  3	     15.00	      166.64
+   3	           100.00	  1	     12.00	       88.00
+   4	           132.00	  3	     18.00	      324.72
+   
+*/
