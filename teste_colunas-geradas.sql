@@ -1,12 +1,8 @@
-/*markdown
-## Exemplo de Colunas Geradas:
-*/
+/*
+Exemplo de Colunas Geradas:
 
-/*markdown
-### Exemplo 01)
-
+Exemplo 01)
 -> Apenas um exemplo simples de como a função deve ser utilizada. 
-
 
 */
 
@@ -28,14 +24,12 @@ VALUES (2,1), (27,38), (2,3), (2,59);
 SELECT * 
 FROM tbl_mult 
 
-/*markdown
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
 
-/*markdown
-### Exemplo 02)
-
--> Queremos criar essa tabela de modo que o campo Preco_Total seja calculado dinamicamente, multiplicando o preço do produto pela quantidade (adquirida), e aplicando um desconto percentual especificado na coluna Desconto ao preço total. 
+/*
+Exemplo 02)
+-> Queremos criar essa tabela de modo que o campo Preco_Total seja calculado dinamicamente, 
+multiplicando o preço do produto pela quantidade (adquirida), e aplicando um desconto percentual especificado na coluna Desconto ao preço total. 
 */
 
 CREATE TABLE vendas(
