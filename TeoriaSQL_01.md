@@ -2,7 +2,7 @@ Curso MySQL:
 
 **SGBDR >>**
 
-<u>Definição:</u> Um Sistema Gerenciador de Bancos de Dados Relaconal trata-se de um sistema de gerenciamento de bancos de dados baseado no modelo relacional introduzido por E.F.Codd.
+<u>Definição:</u> Um Sistema Gerenciador de Bancos de Dados Relacional trata-se de um sistema de gerenciamento de bancos de dados baseado no modelo relacional introduzido por E.F.Codd.
 
 <u>Composição de um Banco de Dados:</u> 
 
@@ -10,7 +10,7 @@ Curso MySQL:
 - Campos (Colunas)
 - Registros (Linhas)
 
-**Tabelas**: Objetos onde são armazenados os dados num banco de dados relacional. Uma tabela é uma coleção de entradas de dados relacinados e consiste em linhas e colunas.
+**Tabelas**: Objetos onde são armazenados os dados num banco de dados relacional. Uma tabela é uma coleção de entradas de dados relacionados e consiste em linhas e colunas.
 
 **Campos**: Entidades que representam os atributos dos dados, como nome, data de nascimento, salário. etc
 
@@ -44,7 +44,7 @@ INSERT - Cria um novo registro
 
 UPDATE - Modifica registros existentes 
 
-DELETE - Excui um ou mais regidstros
+DELETE - Exclui um ou mais registros
 
 
 
@@ -72,7 +72,7 @@ SELECT - Obtém registros especificados de uma ou mais tabelas.
 
 <u>DTL - Data Transaction Language:</u>
 
-Comandos empregados para gerenciar transações no banmco de dados. São utilizados para gerenciar as alterações realizadas por comandos DML executados.
+Comandos empregados para gerenciar transações no banco de dados. São utilizados para gerenciar as alterações realizadas por comandos DML executados.
 
 Comandos >
 
@@ -80,15 +80,15 @@ COMMIT - Salvar transações de forma permanente no banco de dados
 
 ROLLBACK - Restaurar o banco ao último estado após um commit que teve êxito.
 
-SAVEPOINT - Salvar temporariamente uma transação para que seja possíovel efetuar rollback àquele ponto se necessário.
+SAVEPOINT - Salvar temporariamente uma transação para que seja possível efetuar rollback àquele ponto se necessário.
 
 **Criando um Banco de Dados >>**
 
-Para criar um novo banco de dados utilza-se o seguinte comando:
+Para criar um novo banco de dados utiliza-se o seguinte comando:
 
 `CREATE DATABASE [IF NOT EXISTS] nome_BD`; 
 
-[IF NOT EXISTS] - previne que seja criado um bd com nome igual a outro já existente no mesmo sevidor.
+[IF NOT EXISTS] - previne que seja criado um bd com nome igual a outro já existente no mesmo servidor.
 
 Para listar os bancos existentes no servidor, basta utilizar o comando:
 
@@ -104,7 +104,7 @@ Excluir um Banco de Dados:
 
 `DROP DATABASE [IF EXISTS] nome_BD;`
 
-***Contraints* (Restrições) >>**
+***Constraints* (Restrições) >>**
 
 <u>Definição:</u> Restrições são regras aplicadas nas colunas da tabela. São usadas para limitar os tipos de dados que são inseridos e podem ser especificadas no momento de criação da tabela ou após a tabela ter sido criada (ALTER).
 
@@ -124,7 +124,7 @@ UNIQUE - Identifica de forma única cada registro numa tabela de um BD. As const
 
 PRIMARY KEY - identifica de forma única cada registro na tabela. Devem conter sempre valores únicos, não podem conter valores null e cada tabela deve conter apenas uma chave primária.
 
-FOREIGN KEY - Campo que aponta para uma chave primária em outra tabeola. Desta forma, é usada para criar os relacionamentos entre as tabelas do BD.
+FOREIGN KEY - Campo que aponta para uma chave primária em outra tabela. Desta forma, é usada para criar os relacionamentos entre as tabelas do BD.
 
 Exemplo: 
 
