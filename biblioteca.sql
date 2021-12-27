@@ -39,8 +39,6 @@ CREATE TABLE IF NOT EXISTS tbl_editoras(
 
 
 
-
-
 -- Dropa coluna do id do autor apenas para mostrar os passos para criar uma coluna com ALTER TABLE:
 
 ALTER TABLE tbl_livro
@@ -149,4 +147,4 @@ FROM tbl_livro
 LIKE 'ID_livro'
 
 -- célula teste
-
+describe tbl_mult
